@@ -19,11 +19,11 @@ let barW = 100;
 let barH = 15;
 
 // 벽돌
-let bricks = []
-let bricksRow = 5;
-let bricksCol = 7;
-let bricksW = 105;
-let bricksH = 25;
+let bricks = [];
+let bricksRow;
+let bricksCol;
+let bricksW;
+let bricksH;
 let bricksGap = 15;
 
 // 키보드 입력 상태
@@ -72,6 +72,12 @@ function startGame(mode){
         ballSpeedX = 4;
         ballSpeedY = -4;
         barW = 120;
+
+        bricksRow = 3; 
+        bricksCol = 6;
+        bricksW = 125;
+        bricksH = 30;
+
         ballColor = "gold"
         barColor = "#00f0ff"
         brickColor = "#ff6b6b"
@@ -83,6 +89,12 @@ function startGame(mode){
         ballSpeedX = 7;
         ballSpeedY = -7;
         barW = 80;
+
+        bricksRow = 5;
+        bricksCol = 7;
+        bricksW = 105;
+        bricksH = 25;
+
         ballColor = "#ffffff"
         barColor = "#ffcc00" 
         brickColor = "#8a0327" 

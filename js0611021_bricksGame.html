@@ -124,7 +124,6 @@
         /* 올클리어 전용 이펙트 */
 
         .clear-rainbow {
-            /* 무지개 빛 그라디언트 border 대용 감싸기 */
             border: 6px solid transparent !important;
             background-image: linear-gradient(#150022, #000000), 
                               linear-gradient(120deg, #ff007f, #ffcc00, #39ff14, #00f0ff, #7f00ff, #ff007f) !important;
@@ -171,6 +170,26 @@
             100% { opacity: 0.9; }
         }
 
+        #warningText2 {
+            position: fixed;
+            bottom: 10%; 
+            left: 50%;
+            transform: translateX(-50%);
+            
+            margin: 0;
+            font-family: "Orbit", sans-serif;
+            font-size: 12px; 
+            font-weight: 700;
+            color: #ebe7e6; 
+            letter-spacing: 1px;
+            text-align: center;
+            
+            text-shadow: 0 0 5px rgba(255, 51, 51, 0.5);
+            opacity: 0.8;
+            
+        }
+
+
     </style>
 </head>
 
@@ -192,6 +211,7 @@
     </div>
 
     <p id="warningText">⚠️ 주의: 조작 시 마우스와 키보드 중 하나만 사용해주세요!</p>
+    <p id="warningText2">모드 다시 선택 : 새로고침 (F5) 을 눌러주세요</p>
 
     <!-- 자바스크립트 영역 -->
     <script src="./main.js"></script>
