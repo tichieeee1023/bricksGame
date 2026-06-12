@@ -78,9 +78,9 @@ function startGame(mode){
         bricksW = 125;
         bricksH = 30;
 
-        ballColor = "gold"
-        barColor = "#00f0ff"
-        brickColor = "#ff6b6b"
+        ballColor = "#e9f8ef"
+        barColor = "#17eea6"
+        brickColor = "#b0d4af"
         canvas.style.background = "linear-gradient(to bottom, #1a0b2e, #0b1528)"
         canvas.style.borderColor = "#00f0ff";
         canvas.style.boxShadow = "0 0 20px #00f0ff, inset 0 0 15px rgba(0, 240, 255, 0.5)";
